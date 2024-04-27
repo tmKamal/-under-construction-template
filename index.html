@@ -52,7 +52,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 20px;
+                font-weight: bold;
+                margin-top: -1em;
             }
             .instagram-link i {
                 margin-right: 5px;
@@ -318,19 +319,42 @@
                     href="https://www.instagram.com/tvachit_clinic/"
                     target="_blank"
                     style="
-                        position: absolute;
-                        bottom: 0;
                         margin-bottom: 2.5em;
                         font-size: large;
                         text-align: center;
                         color: black;
                     "
                 >
-                    <i class="fab fa-instagram"></i> Follow us on Instagram
+                    <i
+                        class="fab fa-instagram"
+                        style="
+                            letter-spacing: 0.2rem;
+                            background: linear-gradient(
+                                    to right,
+                                    rgb(48, 207, 208) 0%,
+                                    rgb(189, 156, 228) 100%
+                                )
+                                text;
+                            -webkit-text-fill-color: transparent;
+                        "
+                    ></i>
+                    <span
+                        style="
+                            letter-spacing: 0.2rem;
+                            background: linear-gradient(
+                                    to right,
+                                    rgb(48, 207, 208) 0%,
+                                    rgb(189, 156, 228) 100%
+                                )
+                                text;
+                            -webkit-text-fill-color: transparent;
+                        "
+                        >Follow us on Instagram
+                    </span>
                 </a>
             </div>
         </div>
-        <footer class="footer">
+        <footer class="footer" style="position: fixed; bottom: 0">
             <div class="container text-center">
                 <span>tvachit.com</span>
             </div>
